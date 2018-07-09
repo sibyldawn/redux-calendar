@@ -1,0 +1,16 @@
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  grid-gap: 1px;
+}
+
+.day {
+  box-shadow: 0 0 0 1px silver;
+  padding: 5px;
+}
+
+.selected {
+  background: cornflowerblue;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 50px;
+  text-align: center;
+}
+
+.footer {
+  height: 50px;
+}
+
+main {
+  flex: 1;
+}
